@@ -115,6 +115,7 @@ footer .fa-github {
 	height: 77vh;
 }
 
+
 #proyectos img {
 	height: 177px;
 }
@@ -146,6 +147,7 @@ footer .fa-github {
 	color: #ffffff;
 }
 
+
 #proyectos footer .fa-linkedin-in {
 	background-color: #e20000 !important;
 	color: #ffffff !important;
@@ -158,6 +160,13 @@ footer .fa-github {
 	border-radius: 80px;
 	margin: 0 8px;
 }
+
+
+#index {
+	background-image: url(../images/cohete.png);
+	background-size: 100%;
+}
+
 
 @media (max-width: 700px) {
 	/* Para mobile */
