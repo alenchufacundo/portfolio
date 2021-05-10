@@ -83,6 +83,19 @@ footer .fa-github {
 	margin: 0 8px;
 }
 
+#index footer .fa-linkedin-in {
+	color: #e20000;
+	background-color: white;
+	font-size: 20px;
+	border: 0px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	padding: 8px 0 0 0;
+	border-radius: 80px;
+	margin: 0 8px;
+}
+
 .whatsapp {
 	background-color: #370a6d;
 	color: white;
@@ -101,14 +114,14 @@ footer .fa-github {
 	color: #ffffff;
 }
 
-#contacto {
+#contacto, #index{
 	background-image: url(../images/fondo-contacto.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 77vh;
 }
 
-#proyectos {
+#proyectos, #sobre-mi{
 	background-image: url(../images/fondo-proyectos.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -147,6 +160,15 @@ footer .fa-github {
 	color: #ffffff;
 }
 
+#tecnologias .container-fluid {
+	background-color: rgba(184, 37, 20, 1);
+	width: 100%;
+	padding: 3bvng0px 20px 20px 20px;}
+
+#tecnologias h2 {
+	color:white;
+	font-size: 24px;
+}
 
 #proyectos footer .fa-linkedin-in {
 	background-color: #e20000 !important;
@@ -161,10 +183,16 @@ footer .fa-github {
 	margin: 0 8px;
 }
 
+.cohete{
+	height: 400px;
+}
 
-#index {
-	background-image: url(../images/cohete.png);
-	background-size: 100%;
+#index .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
 }
 
 
