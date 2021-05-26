@@ -1,3 +1,9 @@
+<?php
+
+$pg="proyectos";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,35 +21,7 @@
 </head>
 
 <body id="proyectos">
-    <header>
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link px-1 py-1" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-5 py-1" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 ms-4" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once ("header.php"); ?>
 
     <body>
         <main class="container">
@@ -106,7 +84,7 @@
                 </div>
                 <div class="col-sm-4 col-12">
                     <div class="row card m-1">
-                        <img src="images/sistema-admin.png" alt="" class="img-fluid ps-0" >
+                        <img src="images/sistema-admin.png" alt="" class="img-fluid ps-0">
                         <div class="col-12 color-gradiente py-3">
                             <h2>PROYECTO INTEGRADOR</h2>
                         </div>
@@ -131,27 +109,7 @@
             </div>
             </div>
         </main>
-        <footer class="container">
-            <div class="row mt-5 d-flex justify-content-md-end">
-                <div class="col-12 col-sm-3">
-                    <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    <a href="mailto:info@nelsontarche.com">info@nelsontarche.com.ar</a>
-                </div>
-            </div>
-        </footer>
-        <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=541162423341" title="Whatsapp"><i
-                    class="fab fa-whatsapp"></i></a>
-        </div>
-        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+        <?php include_once("footer.php");?>
     </body>
 
 </html>
