@@ -192,6 +192,10 @@ footer .fa-github {
 	height: 400px;
 }
 
+.cohete:hover{
+	transform:scale(1.1);
+}
+
 #index .input-home p {
     color: white;
     font-size: 17px;
