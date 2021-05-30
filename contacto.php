@@ -4,8 +4,11 @@ $pg="contacto";
 
 ?>
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
 <!DOCTYPE html>
 <html lang="es">
 
@@ -24,7 +27,11 @@ $pg="contacto";
 </head>
 
 <body id="contacto">
+<<<<<<< HEAD
     <?php include_once ("header.php"); ?>
+=======
+<?php include_once ("header.php"); ?>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
     <main class="container">
         <div class="row">
             <div class="col-12 mt-3 mb-5">
@@ -65,4 +72,8 @@ $pg="contacto";
     <?php include_once("footer.php");?>
 </body>
 
+<<<<<<< HEAD
 </html>|
+=======
+</html>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3

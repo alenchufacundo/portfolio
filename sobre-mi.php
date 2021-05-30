@@ -22,22 +22,36 @@ $pg="sobre-mi";
 </head>
 
 <body id="sobre-mi">
+<<<<<<< HEAD
     <?php include_once ("header.php"); ?>
+=======
+<?php include_once ("header.php"); ?>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
     <main>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-12 mt-4">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
+<<<<<<< HEAD
                     <p class="pb-sm-5">Apasionado por la tecnología y la nutricion. Soy licenciado en nutricion y
                         estudiante de programacion full stack</p>
                     <a href="contacto.html" class="btn btn-rojo">Enviar mensaje</a>
+=======
+                    <p class="pb-sm-5">Apasionado por la nutricion y los sistemas. Soy licenciado en nutricion y
+                        estudiante de programacion.</p>
+                    <a href="contacto.php" class="btn btn-rojo">Enviar mensaje</a>
+
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
                     <img src="" alt="Facundo Rios" title="Facundo Rios" class="img-fluid img-circle">
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <p> </p>
+=======
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
         <section id="tecnologias" class="color-gradiente pb-5">
             <div class="container">
                 <div class="row">
@@ -138,31 +152,51 @@ $pg="sobre-mi";
         <section id="idiomas">
             <div class="container">
                 <div class="row py-5 mx-0">
+<<<<<<< HEAD
                     <div class="col-sm-6 col-12">
                         <div class="row mr-sm-1 bg-white card-idioma shadow">
+=======
+                    <div class="col-sm-6 col-12" style="padding: 0px 48px 48px 48px;">
+                        <div class="row mr-sm-1 bg-white card-idioma shadow" style="border-radius: 15px;">
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                             <div class="col-4 text-center card">
                                 <i class="fas fa-comment-alt"></i>
                             </div>
                             <div class="col-8 p-5">
                                 <h2>IDIOMAS</h2>
+<<<<<<< HEAD
                                 <ul>
+=======
+                                <ul style="list-style: none; float: left !important;">
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                                     <li>ESPAÑOL - Nativo</li>
                                     <li>INGLÉS - Intermediate B2</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="col-sm-6 col-12">
                         <div class="row ml-sm-2 bg-white card-idioma shadow">
+=======
+                    <div class="col-sm-6 col-12" style="padding: 0px 48px 48px 48px;">
+                        <div class="row ml-sm-2 bg-white card-idioma shadow" style="border-radius: 15px;">
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                             <div class="col-4 text-center card">
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="col-8 p-5">
                                 <h2>HOBBIES</h2>
+<<<<<<< HEAD
                                 <ul>
                                     <li>Deportes</li>
                                     <li>Series</li>
                                     <li>Nutricion</li>
+=======
+                                <ul style="list-style: none; float: left !important;">
+                                    <li>Deportes</li>
+                                    <li>Series</li>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                                 </ul>
                             </div>
                         </div>
@@ -170,16 +204,45 @@ $pg="sobre-mi";
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
         <section id="formacion" class="container">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                     <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
+=======
+        <section id="experiencia" class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+                </div>
+            </div>
+            <div class="row shadow bg-white rounded">
+
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-2 p-5 my-auto d-none d-sm-block">
+                            <img src="images/praline.jpg" class="img-fluid baw" title="panaderia praline">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Seguridad y distribucion</h3>
+                            <h4>Panaderia Praline</h4>
+                            <h5>2020 - presente</h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="formacion" class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-graduation-cap"></i> Formación académica</h2>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                 </div>
             </div>
             <div class="row shadow bg-white rounded">
                 <div class="col-12">
                     <div class="row">
                         <div class="col-2 px-5 py-3 my-auto d-none d-sm-block">
+<<<<<<< HEAD
                             <img src="images/logo-depcsuite.svg" class="img-fluid baw" title="depcsuite">
                         </div>
                         <div class="col-12- col-sm-10 p-3">
@@ -187,6 +250,75 @@ $pg="sobre-mi";
                             <h4>DEPCSUITE SA</h4>
                             <h5>2021 - presente</h5>
                             <p>Estudiante del Curso de Programacion Web Full Stack, Depc Suite:</p>
+=======
+                            <img src="images/ucalp.png" class="img-fluid baw" title="depcsuite">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Licenciado en nutricion</h3>
+                            <h4>Universidad catolica de la Plata</h4>
+                            <h5>2015 - 2021</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="formacion" class="container mb-5">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h2>
+                </div>
+            </div>
+            <div class="row shadow bg-white rounded p-1">
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/logo-depcsuite.svg" class="img-fluid baw" title="Aros Sport">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Estudiante de programacion</h3>
+                            <h4>DEPCSUITE SA</h4>
+                            <h5>2021-presente</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/aros.jpg" class="img-fluid baw" title="Aros Sport">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Instructor musculacion deportiva</h3>
+                            <h4>AROS SPORTS</h4>
+                            <h5>Gimnasio Evaluarte</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/hellenkeller.jpg" class="img-fluid baw" title="depcsuite">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Instituto Hellen Keller</h3>
+                            <h4>English language Institute</h4>
+                            <h5>6to Senior - Intermediate B2 (expedicion 2012)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/utn.jp.png" class="img-fluid baw" title="utn">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Fundamentos de programacion</h3>
+                            <h4>Universidad Tecnologica Nacional de Buenos Aires</h4>
+                            <h5>Expedición: dic 2021</h5>
+                            <p></p>
+>>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
                         </div>
                     </div>
                 </div>
