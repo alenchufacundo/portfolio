@@ -14,14 +14,9 @@ a {
 
 h1 {
 	color: #e20000;
-<<<<<<< HEAD
-	font-size: 2.5rem;
+	font-size: 40px;
 	margin-bottom: 8px;
 	font-size: 36px;
-=======
-	font-size: 36px;
-	margin-bottom: 8px;
->>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
 }
 
 nav .nav-link {
@@ -254,11 +249,7 @@ footer .fa-github {
     height: 182px;
 }
 
-<<<<<<< HEAD
 #sobre-mi h3{
-=======
-#tecnologias h3{
->>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
     font-size: 14px;
     color: #282828;
     font-weight: 300;
