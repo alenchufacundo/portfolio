@@ -4,10 +4,6 @@ $pg="inicio";
 
 ?>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
 <!DOCTYPE html>
 <html lang="es">
 
@@ -43,18 +39,11 @@ $pg="inicio";
             </div>
             <div class="row">
                 <div class="col-12 mt-4 text-center mt-1">
-<<<<<<< HEAD
                     <a href="proyectos.php" class="btn shadow">Conoce mis proyectos</a>
                 </div>
             </div>
         </div>
 
-=======
-                    <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
-                </div>
-            </div>
-        </div>
->>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
     </main>
     <?php include_once("footer.php");?>
 </body>

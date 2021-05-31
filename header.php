@@ -26,8 +26,5 @@
         </div>
     </nav>
 </header>
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 9c8aea0a14ccb45cb7de5f58d6e7d6ce3ce961d3
