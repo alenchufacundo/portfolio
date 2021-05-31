@@ -4,6 +4,8 @@ $pg="contacto";
 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -22,7 +24,7 @@ $pg="contacto";
 </head>
 
 <body id="contacto">
-<?php include_once ("header.php"); ?>
+    <?php include_once ("header.php"); ?>
     <main class="container">
         <div class="row">
             <div class="col-12 mt-3 mb-5">
@@ -62,5 +64,4 @@ $pg="contacto";
     </main>
     <?php include_once("footer.php");?>
 </body>
-
-</html>
+</html>|

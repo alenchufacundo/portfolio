@@ -4,7 +4,6 @@ $pg="inicio";
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -44,6 +43,7 @@ $pg="inicio";
                 </div>
             </div>
         </div>
+
     </main>
     <?php include_once("footer.php");?>
 </body>

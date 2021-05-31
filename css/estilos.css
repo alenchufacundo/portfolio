@@ -14,8 +14,9 @@ a {
 
 h1 {
 	color: #e20000;
-	font-size: 36px;
+	font-size: 40px;
 	margin-bottom: 8px;
+	font-size: 36px;
 }
 
 nav .nav-link {
@@ -256,10 +257,17 @@ footer .fa-github {
 	height: 182px;
 }
 
+<<<<<<< HEAD
 #tecnologias h3 {
 	font-size: 14px;
 	color: #282828;
 	font-weight: 300;
+=======
+#sobre-mi h3{
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+>>>>>>> f4ba28da8e1c78779ce687f377c4afcdc6d2d3dc
 }
 
 #tecnologias h2 {
@@ -294,6 +302,10 @@ footer .fa-github {
 
 .cohete {
 	height: 400px;
+}
+
+.cohete:hover{
+	transform:scale(1.1);
 }
 
 #index .input-home p {

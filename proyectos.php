@@ -36,11 +36,9 @@ $pg="proyectos";
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
-                    <div class="row card">
-                        <div class="col-12 p-0">
-                            <img src="images/abmclientes.png" alt="" class="img-fluid">
-                        </div>
+                <div class="col-sm-4 col-12">
+                    <div class="row card m-1">
+                        <img src="images/abmclientes.png" alt="" class="img-fluid ">
                         <div class="col-12 color-gradiente py-3">
                             <h2>ABM CLIENTES</h2>
                         </div>
@@ -48,43 +46,45 @@ $pg="proyectos";
                             <p>Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP,
                                 Bootstrap y Json.</p>
                         </div>
-                        <div class="row py-5">
+                        <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="" class="btn btn-rojo">Ver online</a>
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                    target="_blank">Ver online</a>
                             </div>
-                            <div class="col-6 link-rojo text-center">
-                                <a href="">Código fuente</a>
+                            <div class="col-6">
+                                <a href="https://github.com/depcsuite/abmclientes" class="link-rojo"
+                                    target="_blank">Código
+                                    fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
-                    <div class="row card">
-                        <div class="col-12 p-0">
-                            <img src="images/abmventas.png" alt="" class="img-fluid">
-                        </div>
+                <div class="col-sm-4 col-12">
+                    <div class="row card m-1">
+                        <img src="images/abmventas.png" alt="" class="img-fluid ps-0">
                         <div class="col-12 color-gradiente py-3">
-                            <h2>SISTEMA DE GESTIÓN DE VENTAS</h2>
+                            <h2>SISTEMA DE GESTION DE VENTAS</h2>
                         </div>
                         <div class="col-12 py-3">
                             <p>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC,
                                 Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                         </div>
-                        <div class="row py-5">
+                        <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="" class="btn btn-rojo">Ver online</a>
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                    target="_blank">Ver online</a>
                             </div>
-                            <div class="col-6 link-rojo text-center">
-                                <a href="">Código fuente</a>
+                            <div class="col-6">
+                                <a href="https://github.com/depcsuite/abmclientes" class="link-rojo"
+                                    target="_blank">Código
+                                    fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-12 p-sm-4 px-4 py-2">
-                    <div class="row card">
-                        <div class="col-12 p-0">
-                            <img src="images/proyecto-integrador.png" alt="" class="img-fluid">
-                        </div>
+                <div class="col-sm-4 col-12">
+                    <div class="row card m-1">
+                        <img src="images/sistema-admin.png" alt="" class="img-fluid ps-0">
                         <div class="col-12 color-gradiente py-3">
                             <h2>PROYECTO INTEGRADOR</h2>
                         </div>
@@ -93,16 +93,20 @@ $pg="proyectos";
                                 Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y
                                 funcionalidades a fines.</p>
                         </div>
-                        <div class="row py-5">
+                        <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="" class="btn btn-rojo">Ver online</a>
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                    target="_blank">Ver online</a>
                             </div>
-                            <div class="col-6 link-rojo text-center">
-                                <a href="">Código fuente</a>
+                            <div class="col-6">
+                                <a href="https://github.com/depcsuite/abmclientes" class="link-rojo"
+                                    target="_blank">Código
+                                    fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </main>
         <?php include_once("footer.php");?>
