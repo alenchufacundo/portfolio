@@ -28,13 +28,13 @@ $pg="sobre-mi";
             <div class="row">
                 <div class="col-sm-5 col-12 mt-4">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
-                    <p class="pb-sm-5">Apasionado por la nutricion y los sistemas. Soy licenciado en nutricion y
+                    <p class="pb-sm-5">Apasionado por la nutricion y los sistemas. Soy licenciado en Nutricion y
                         estudiante de programacion.</p>
                     <a href="contacto.php" class="btn btn-rojo">Enviar mensaje</a>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
-                    <img src="" alt="Facundo Rios" title="Facundo Rios" class="img-fluid img-circle">
+                    <img src="images/perfil2.jpeg" alt="Facundo Rios" title="Facundo Rios" class="img-fluid img-circle">
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@ $pg="sobre-mi";
                             </div>
                             <div class="col-8 p-5">
                                 <h2>IDIOMAS</h2>
-                                <ul style="list-style: none; float: left !important;">
+                                <ul style="list-style: none">
                                     <li>ESPAÑOL - Nativo</li>
                                     <li>INGLÉS - Intermediate B2</li>
                                 </ul>
