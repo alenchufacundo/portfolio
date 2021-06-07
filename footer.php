@@ -1,7 +1,7 @@
 <footer class="container">
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
-                <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/alenchufacundo" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/facundo-rios-ab2381164/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
