@@ -135,7 +135,7 @@ $pg="sobre-mi";
                 </div>
             </div>
         </section>
-        <section id="idiomas">
+        <section id="idiomas" style="background-color: #f2f2f2">
             <div class="container">
                 <div class="row py-5 mx-0">
                     <div class="col-sm-6 col-12" style="padding: 0px 48px 48px 48px;">

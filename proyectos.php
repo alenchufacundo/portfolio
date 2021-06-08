@@ -46,7 +46,7 @@ $pg="proyectos";
                             <p>Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP,
                                 Bootstrap y Json.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row py-5 text-center">
                             <div class="col-6">
                                 <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
@@ -69,7 +69,7 @@ $pg="proyectos";
                             <p>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC,
                                 Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row py-4 text-center">
                             <div class="col-6">
                                 <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
@@ -93,7 +93,7 @@ $pg="proyectos";
                                 Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y
                                 funcionalidades a fines.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row py-2 text-center">
                             <div class="col-6">
                                 <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
