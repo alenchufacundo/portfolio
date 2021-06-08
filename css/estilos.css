@@ -34,22 +34,36 @@ textarea {
 	border: none !important;
 }
 
-.btn {
-	background-color: #ffffff;
-	color: #370a6d;
-	font-weight: 500;
-	font-size: 18px;
+.btnIndex{
+		border-radius: 20px;
+		padding: 10px;
+		background-color: #ffffff;
+		color: #370a6d;
+		padding: 8px 30px 8px 30px;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+
+#contacto .btnEnviar {
+	background-color:#370a6d;
+	color: #ffffff;
+	font-size: 15px;
 	border-radius: 20px;
 }
 
-.btn:hover {
-	color: #ffffff;
-	background-color: #370a6d;
+#contacto .btnEnviar:hover{
+	color: #370a6d;
+	background-color: #ffffff;
 }
 
+#proyectos .btnOnline:hover {
+	color:#ffffff;
+	background-color: #370a6d
+}
 .btn-rojo {
 	background-color: #e20000;
-	color: white;
+	color: #ffffff;
 	font-size: 15px;
 	border-radius: 20px;
 	font-weight: 100;
@@ -63,7 +77,6 @@ footer,
 footer a {
 	font-weight: 100;
 	color: #ffffff;
-
 }
 
 footer .fa-github {
@@ -79,6 +92,11 @@ footer .fa-github {
 #sobre-mi footer .fa-github {
 	background-color: #ffffff;
 	color: #e20000;
+	font-size: 30px;
+}
+
+#proyectos .link-rojo{
+	color:#e20000;
 }
 
 #proyectos footer .fa-linkedin-in,
@@ -95,11 +113,7 @@ footer .fa-github {
 	margin: 0 8px;
 }
 
-#proyectos footer .fa-github,
-#sobre-mi footer .fa-github {
-	font-size: 30px;
-	color: #e20000;
-}
+
 
 #contacto footer .fa-linkedin-in,
 #index footer .fa-linkedin-in {
@@ -145,10 +159,7 @@ footer .fa-github {
 	padding-bottom: 1rem !important;
 }
 
-#sobre-mi .mt-4 {
-	padding-bottom: 70px;
-	margin-top: 1.5rem !important;
-}
+
 #contacto,
 #index {
 	background-image: url(../images/fondo-contacto.png);
@@ -181,6 +192,15 @@ footer .fa-github {
 #idiomas .fas {
 	font-size: 80px;
 	color: #ffffff;
+}
+
+#tecnologias .container{
+	padding-bottom: 30px;
+}
+
+#sobre-mi .mt-4 {
+	padding-bottom: 30px;
+	margin-top: 1.5rem !important;
 }
 
 #sobre-mi h2 {
@@ -275,6 +295,7 @@ footer .fa-github {
 	font-size: 14px;
 	color: #282828;
 	font-weight: 300;
+	text-align: center;
 }
 
 #tecnologias h2 {
@@ -292,6 +313,7 @@ footer .fa-github {
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0.25rem;
+	height: 500px;
 }
 
 #proyectos .p-3 {
@@ -322,22 +344,22 @@ footer .fa-github {
 	#index {
 		background-image: url(../images/fondo-proyectos.png);
 	}
-}
-
-@media (max-width: 750px) {
-	/*footer para mobile*/
-	footer a {
+	.whatsapp {
+		right: 15px;
+	}
+	footer, footer a {
 		color: #e20000;
 	}
+	#sobre-mi .mt-4{
+		padding-bottom: 10px;
+	}
+	#sobre-mi .col-12{
+		padding-top: 10px;
+	}
+	#sobre-mi .container{
+		padding-left: 15px;
+		padding-bottom: 10px;
+	}
+
 }
 
-@media (min-width: 1400px) {
-	.container,
-	.container-lg,
-	.container-md,
-	.container-sm,
-	.container-xl,
-	.container-xxl {
-		max-width: 1320px;
-	}
-}

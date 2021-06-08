@@ -89,7 +89,7 @@ $pg="sobre-mi";
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-1">
                     <div class="col-sm-2 col-6">
                         <div class="px-4 py-5 card mx-0">
                             <h3>Laravel</h3>

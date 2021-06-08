@@ -32,7 +32,7 @@ $pg="proyectos";
             </div>
             <div class="row">
                 <div class="col-sm-6 col-12">
-                    <p>Los siguientes son algunos de los trabajos que he realizado</p>
+                    <p>Los siguientes son algunos de los trabajos que he realizado:</p>
                 </div>
             </div>
             <div class="row">
@@ -48,7 +48,7 @@ $pg="proyectos";
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
@@ -71,7 +71,7 @@ $pg="proyectos";
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
@@ -95,7 +95,7 @@ $pg="proyectos";
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo btnOnline"
                                     target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">

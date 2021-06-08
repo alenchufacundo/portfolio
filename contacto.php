@@ -56,7 +56,7 @@ $pg="contacto";
                             placeholder="Escribe aquí tu mensaje" class="form-control shadow"></textarea>
                     </div>
                     <div class="me-auto text-right d-flex justify-content-end">
-                        <button id="btnEnviar" name="btnEnviar" class="btn px-4">ENVIAR</button>
+                        <button id="btnEnviar" name="btnEnviar" class="btnEnviar btn px-4">ENVIAR</button>
                     </div>
                 </form>
             </div>
