@@ -4,8 +4,7 @@ const hamburguer = document.querySelector('.nav__menu--mobile');
 const menu__nav = document.querySelector('.nav__menu');
 const nav__list = document.querySelectorAll('.nav__list');
 const lines = document.querySelectorAll('.nav__mobile--line');
-
-
+const header = document.querySelector('.header')
 
 // Funcionalidad para agregar las clases de css
 hamburguer.addEventListener('click', () => {
@@ -23,3 +22,14 @@ nav__list.forEach(child => {
     lines.forEach(item => {item.classList.remove('animated')}); 
   });
 });
+
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    header.classList.add('show');
+  } else {
+    header.classList.remove('show');
+  }
+});
+
+

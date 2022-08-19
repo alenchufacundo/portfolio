@@ -29,7 +29,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-background-dark)
+    background-color: var(--color-background-dark);
+    width: 100%;
+}
+
+.header.show{
+    position: fixed;
+    z-index: 2;
 }
 
 .nav{
@@ -61,7 +67,7 @@ body{
 
 .nav__menu--mobile.active{
     position: fixed;
-    top: 28px;
+    top: 25px;
     right: 25px;
     z-index: 1;
 }
@@ -94,8 +100,9 @@ body{
 
 .nav__menu.active{
     display: flex;
-    animation: showMenu 350ms ease-in-out alternate both;
+    animation: showMenu 350ms .15s ease-in-out both;
     max-height: 100%;
+    min-height: 100%;
 }
 
 @keyframes showMenu{
@@ -104,6 +111,7 @@ body{
     }   
 
     to{
+       background-color: var(--color-background-dark);
        opacity: 1; 
     }
 }
@@ -128,9 +136,6 @@ body{
     font-weight: 800;
 }
 
-.nav__list_a:active{
-    transition: all 0.5s
-}
 
 /* Lineas del hamburguer */
 
@@ -526,7 +531,7 @@ body{
     gap: 1rem;
     background-color: var(--color-background-light);
     height: 250px;
-    width: 250px;
+    width: 280px;
     border-radius: 1rem;
     box-shadow: 0 0 0.625rem var(--color-secondary);
     animation: shadow 1s .5s alternate infinite linear, 
@@ -553,7 +558,7 @@ body{
 /* End of animation */
 
 .contact__info{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--color-quinary);
 }
 
@@ -676,12 +681,12 @@ body{
     border-radius: .5rem;
     width: 35px;
     height: 35px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
     bottom: 0.8rem;
-    right: 0.5rem;
+    right: 1rem;
 }
 
 .arrow__top:hover{
@@ -695,6 +700,10 @@ body{
     height:50%;
 }
 
+.arrow__top.active{
+    display: flex;
+}
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -705,11 +714,19 @@ body{
     .hero__subtitle{
         width: 84%;
     }
+
+    .arrow__top{
+        right: 1.5rem;
+    }
 }
 
 @media (min-width: 425px){
     .hero__subtitle{
         width: 73%;
+    }
+
+    .arrow__top{
+        right: 1.75rem;
     }
 
 }
@@ -732,11 +749,21 @@ body{
         width: 90%;
     }
 
+    .arrow__top{
+        right: 2.75rem;
+    }
+
 }
+
 
 @media (min-width: 1024px) {
 
     /* Header */
+
+    .header.show{
+        position: static;
+        z-index:1;
+    }
 
     .header.container{
         min-height:9vh;
@@ -772,20 +799,6 @@ body{
         display: none;
     }
 
-    /* .nav__menu{
-        min-height:100vh;
-        min-width: 100vw;
-        position: fixed;
-        top: 0;
-        right: 0;
-        background-color: var(--color-background-light);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        display: none;
-        z-index: 1;
-        opacity: 0;
-    } */
 
     .nav__list{
         width: 100%;
@@ -969,6 +982,11 @@ body{
         width: 70%;
     }
 
+    /* Arrow top */
+
+    .arrow__top.active{
+        display: none;
+    }
 
 }
 
