@@ -235,7 +235,7 @@ body{
     border-right: 4px solid var(--color-secondary);
     overflow: hidden;
     white-space: nowrap;
-    width: 100%;
+    width: 23.2ch;
     animation: typing 3.25s alternate infinite steps(24, end),
     blink 1s alternate infinite steps(24);
 }
@@ -710,20 +710,7 @@ body{
 
 /* Media queries */
 
-@media (min-width: 375px){
-    .hero__subtitle{
-        width: 84%;
-    }
-
-    .arrow__top{
-        right: 1.5rem;
-    }
-}
-
 @media (min-width: 425px){
-    .hero__subtitle{
-        width: 73%;
-    }
 
     .arrow__top{
         right: 1.75rem;
@@ -732,9 +719,7 @@ body{
 }
 
 @media (min-width: 768px){
-    .hero__subtitle{
-        width: 38%;
-    }
+
 
     .contact__container{
         width: 70%;
@@ -833,7 +818,6 @@ body{
 
     .hero__subtitle{
         font-size: 1.625rem;
-        width: 108%;
     }
 
     .hero__description{
