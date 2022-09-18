@@ -415,6 +415,7 @@ body {
 
 .education__title_card {
   color: var(--color-primary);
+  width:90%;
 }
 
 .education__paragraph_card {
@@ -463,7 +464,7 @@ body {
 .carrusel-image {
   width: 100%;
   height: 100%;
-  object-fit: center;
+  /* object-fit: center; */
   border-radius: 30px;
 }
 
@@ -493,9 +494,9 @@ body {
 }
 
 .control__right:hover, .control__left:hover{
-  transform:scale(1.17);
+  transform:scale(1.5);
   transition: transform .5s;
-  background-color: var(--color-secondary);
+  color: red;
 }
 
 .hover__image{
@@ -515,7 +516,7 @@ body {
 }
 
 .hover__title{
-  font-size: 2.5rem;
+  font-size: 30px;
 }
 
 .hover__description{
@@ -535,10 +536,19 @@ body {
 
 .hover__link{
   text-decoration: none;
-  color: #fff;
+  font-weight: 700;
+  border: 2px solid none;
+  color: var(--color-background-dark);
   background-color: var(--color-secondary);
-  width:30%;
+  width:40%;
+  padding:5px 0;
   border-radius:30px;
+}
+
+.hover__link:hover{
+  background-color: var(--color-primary);
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .carrusel-item:hover .hover__image{
@@ -1062,6 +1072,11 @@ body {
   .hero__button_cv {
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
+  }
+
+  .about__image{
+    margin-top: 15rem;
+    height:50vh;
   }
 }
 
