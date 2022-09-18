@@ -1,302 +1,438 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/scrollbar.cs">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/37ee1699ac.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Facundo Rios</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Header -->
     <header class="header container" id="header">
-        <nav class="nav">
-            <article class="nav__logo">
-                <a href="index.html" class="nav__link">Facundo Rios</a>
-                <img class="nav__logo--img" src="" alt="">
-            </article>
-            <!-- Menu desktop-->
-            <article class="nav__menu">
-                <ul class="nav__list">
-                    <li><a href="#about-me" class="nav__list--about nav__list_a">Sobre mi</a></li>
-                    <li><a href="#skills" class="nav__list--skills nav__list_a">Habilidades</a></li>
-                    <li><a href="#education" class="nav__list--education nav__list_a">Formacion</a></li>
-                    <li><a href="#project" class="nav__list--projects nav__list_a">Proyectos</a></li>
-                    <li><a href="#contact" class="nav__list--contact nav__list_a">Contacto</a></li>
-                </ul>
-            </article>
-            <!-- Menu mobile -->
-            <article class="nav__menu--mobile">
-                <span class="nav__mobile--line line-1"></span>
-                <span class="nav__mobile--line line-2"></span>
-                <span class="nav__mobile--line line-3"></span>
-            </article>
-        </nav>`
+      <nav class="nav">
+        <article class="nav__logo">
+          <a href="index.html" class="nav__link">Facundo Rios</a>
+          <img class="nav__logo--img" src="" alt="" />
+        </article>
+        <!-- Menu desktop-->
+        <article class="nav__menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#about-me" class="nav__list--about nav__list_a"
+                >Sobre mi</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="nav__list--skills nav__list_a"
+                >Habilidades</a
+              >
+            </li>
+            <li>
+              <a href="#education" class="nav__list--education nav__list_a"
+                >Formacion</a
+              >
+            </li>
+            <li>
+              <a href="#project" class="nav__list--projects nav__list_a"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav__list--contact nav__list_a"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </article>
+        <!-- Menu mobile -->
+        <article class="nav__menu--mobile">
+          <span class="nav__mobile--line line-1"></span>
+          <span class="nav__mobile--line line-2"></span>
+          <span class="nav__mobile--line line-3"></span>
+        </article>
+      </nav>
+      `
     </header>
 
     <!-- Hero -->
     <section class="hero container" id="header">
+      <article class="hero__photo">
+        <!-- <div class="hero__animated_image animated"></div> -->
+        <figure class="hero__figure">
+          <img
+            class="hero__img_profile profile"
+            src="images/perfil.png"
+            alt=""
+          />
+        </figure>
+      </article>
 
-        <article class="hero__photo">
-            <!-- <div class="hero__animated_image animated"></div> -->
-            <figure class="hero__figure">
-                <img class="hero__img_profile profile" src="images/perfil.png" alt="">
-            </figure>
-        </article>
-
-        <article class="hero__description">
-            <h1 class="hero__title">Hola, soy <strong>Facundo Rios!</strong></h1>
-            <span class="hero__subtitle">Desarrollador Full-Stack</span>
-            <p class="hero__description_paragraph paragraph">
-                Soy estudiante de programacion, actualmente enfocado al desarrollo web como de aplicaciones de escritorio.
-                Me apasiona crear proyectos que sean funcionales dandole un toque personal mio, por eso mismo considero que
-                la programacion tambien es arte, ya que uno mismo crea.
-            </p>
-            <a href="https://drive.google.com/file/d/11CdaNVRxBlAULrvldsDP8fR7gydvLrrx/view?usp=sharing" target="_blank" class="hero__button_cv">DESCARGAR CV</a>
-        </article>
-
+      <article class="hero__description">
+        <h1 class="hero__title">Hola, soy <strong>Facundo Rios!</strong></h1>
+        <span class="hero__subtitle">Desarrollador Full-Stack</span>
+        <p class="hero__description_paragraph paragraph">
+          Soy estudiante de programacion, actualmente enfocado al desarrollo web
+          como de aplicaciones de escritorio. Me apasiona crear proyectos que
+          sean funcionales dandole un toque personal mio, por eso mismo
+          considero que la programacion tambien es arte, ya que uno mismo crea.
+        </p>
+        <a
+          href="https://drive.google.com/file/d/11CdaNVRxBlAULrvldsDP8fR7gydvLrrx/view?usp=sharing"
+          target="_blank"
+          class="hero__button_cv"
+          >DESCARGAR CV</a
+        >
+      </article>
     </section>
 
     <!-- Main content -->
     <main>
+      <!-- About me -->
+      <section class="about container" id="about-me">
+        <article class="about__title_container title">
+          <h1 class="about__title">Sobre mi</h1>
+        </article>
 
-        <!-- About me -->
-        <section class="about container" id="about-me">
+        <article class="about__container">
+          <div class="about__text">
+            <h2 class="about__subtitle">Facundo Rios</h2>
+            <p class="about__description paragraph">
+              Soy licenciado en Nutricion desde el 2021, pero mi pasion desde
+              pequeño por las tecnologias y los sistemas me llevo al mundo del
+              desarrollo y la programacion. Me considero una persona autodidacta
+              con ganas de aprender y seguir formandome constantemente, y poder
+              encontrar mi primer trabajo IT para lograr dicho objetivo.
+            </p>
+            <p class="about__description--colorful paragraph">
+              Siempre dispuesto al trabajo en equipo y en aprendizaje continuo.
+            </p>
+          </div>
+          <picture class="about__image">
+            <img
+              src="images/animated_dev.gif"
+              alt=""
+              class="about__image--dev"
+            />
+          </picture>
+        </article>
+      </section>
 
-            <article class="about__title_container title">
-                <h1 class="about__title">Sobre mi</h1>
-            </article>
+      <section class="skills container" id="skills">
+        <!-- Titulo -->
+        <article class="skills__title_container title">
+          <h1 class="skills__title">Tecnologias</h1>
+        </article>
 
-            <article class="about__container">
-                <div class="about__text">
-                    <h2 class="about__subtitle">
-                        Facundo Rios
-                    </h2>
-                    <p class="about__description paragraph">
-                        Soy licenciado en Nutricion desde el 2021, pero mi pasion desde pequeño por las tecnologias y los sistemas me llevo al mundo
-                        del desarrollo y la programacion. Me considero una persona autodidacta con ganas de aprender y seguir formandome constantemente,
-                        y poder encontrar mi primer trabajo IT para lograr dicho objetivo.
-                    </p>
-                    <p class="about__description--colorful paragraph">
-                        Siempre dispuesto al trabajo en equipo y en
-                        aprendizaje continuo.
-                    </p>
+        <!-- Skills -->
+        <article class="skills__logo_container">
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/css.svg" alt="" />
+            <p class="logo__description">CSS</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/html5.svg" alt="" />
+            <p class="logo__description">HTML</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/js.svg" alt="" />
+            <p class="logo__description">JAVASCRIPT</p>
+          </figure>
+          <!-- <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/react.svg" alt="" />
+            <p class="logo__description">REACT</p>
+          </figure> -->
+          <figure class="skills__logo">
+            <img
+              class="skills__logo--img"
+              src="images/androidStudio.svg"
+              alt=""
+            />
+            <p class="logo__description">ANDROID STUDIO</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/mysql.svg" alt="" />
+            <p class="logo__description">MYSQL</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/python.svg" alt="" />
+            <p class="logo__description">PYTHON</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/java.svg" alt="" />
+            <p class="logo__description">JAVA</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/jquery.svg" alt="" />
+            <p class="logo__description">JQUERY</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/figma.svg" alt="" />
+            <p class="logo__description">FIGMA</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/trello.svg" alt="" />
+            <p class="logo__description">TRELLO</p>
+          </figure>
+        </article>
+      </section>
+
+      <!-- Education -->
+      <section class="education container" id="education">
+        <article class="education__title_container title">
+          <h1 class="education__title">Formacion academica</h1>
+        </article>
+        <!-- Formacion Oracle Next Education -->
+        <article class="education__container">
+          <div class="education__card">
+            <figure class="education__figure">
+              <img
+                src="images/onenexteducation2.png"
+                alt=""
+                class="education__img"
+              />
+            </figure>
+            <h2 class="education__title_card">
+              Fullstack developer (HTML, CSS, JS, JAVA)
+            </h2>
+            <p class="education__paragraph_card">2022 - en curso</p>
+          </div>
+
+          <div class="education__card">
+            <figure class="education__figure">
+              <img src="images/utn.png" alt="" class="education__img" />
+            </figure>
+            <h2 class="education__title_card">
+              Fundamentos de la programacion
+            </h2>
+            <p class="education__paragraph_card">2021 - finalizado</p>
+          </div>
+          <div class="education__card">
+            <figure class="education__figure">
+              <img
+                src="images/cfp402.png"
+                alt=""
+                class="education__img education__img_cf"
+              />
+            </figure>
+            <h2 class="education__title_card">
+              Desarrollo de aplicaciones mobile - Java & Android Studio
+            </h2>
+            <p class="education__paragraph_card">2022 - en curso</p>
+          </div>
+
+          <div class="education__card">
+            <figure class="education__figure">
+              <img
+                src="images/codigofacilito2.png"
+                alt=""
+                class="education__img"
+              />
+            </figure>
+            <h2 class="education__title_card">
+              Bootcamp Front-End Codigo Facilito
+            </h2>
+            <p class="education__paragraph_card">2022 - en curso</p>
+          </div>
+
+          <div class="education__card">
+            <figure class="education__figure">
+              <img src="images/cfp405.png" alt="" class="education__img" />
+            </figure>
+            <h2 class="education__title_card">
+              Desarrollo de software - Python , MySQL & SQLite
+            </h2>
+            <p class="education__paragraph_card">2022 - en curso</p>
+          </div>
+          <div class="education__card">
+            <figure class="education__figure">
+              <img
+                src="images/utnBahiaBlanca.png"
+                alt=""
+                class="education__img"
+              />
+            </figure>
+            <h2 class="education__title_card">
+              UTN - Tecnico universitario en programacion
+            </h2>
+            <p class="education__paragraph_card">inicio - 2023</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Projects section -->
+      <section class="project container" id="project">
+        <article class="project__title_container title">
+          <h1 class="project__title">Proyectos</h1>
+        </article>
+
+        <article class="carrusel__container">
+          <div class="carrusel-items">
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-1.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Calculadora</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">
+                    Calculadora responsive y funcional realizado con <strong>HTML, CSS Y JAVASCRIPT</strong>
+                  </p>
+                  <a class="hover__link" href=""><p>Ver codigo</p></a>
+                  <a class="hover__link" href=""><p>Ver online</p></a>
                 </div>
-                <picture class="about__image">
-                    <img src="images/animated_dev.gif" alt="" class="about__image--dev">
-                </picture>
-            </article>
-
-        </section>
-
-        <section class="skills container" id="skills">
-
-            <!-- Titulo -->
-            <article class="skills__title_container title">
-                <h1 class="skills__title">Habilidades</h1>
-            </article>
-
-            <!-- Skills -->
-            <article class="skills__logo_container">
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/css.svg" alt="">
-                    <p class="logo__description">CSS</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/html5.svg" alt="">
-                    <p class="logo__description">HTML</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/js.svg" alt="">
-                    <p class="logo__description">JAVASCRIPT</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/react.svg" alt="">
-                    <p class="logo__description">REACT</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/mysql.svg" alt="">
-                    <p class="logo__description">MYSQL</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/python.svg" alt="">
-                    <p class="logo__description">PYTHON</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/java.svg" alt="">
-                    <p class="logo__description">JAVA</p>
-                </picture>
-                <picture class="skills__logo">
-                    <img  class="skills__logo--img" src="images/figma.svg" alt="">
-                    <p class="logo__description">FIGMA</p>
-                </picture>
-            </article>
-
-        </section>
-
-        <!-- Education -->
-        <section class="education container" id="education">
-            <article class="education__title_container title">
-                <h1 class="education__title">Formacion academica</h1>
-            </article>
-            <!-- Formacion Oracle Next Education -->
-            <article class="education__container">
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/onenexteducation2.png" alt="" class="education__img">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Fullstack developer (HTML, CSS, JS, JAVA)
-                    </h2>
-                    <p class="education__paragraph_card">2022 - en curso</p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-2.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Dragon Ball Super App</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">
+                    Web de busqueda de personajes de la saga Dragon Ball Super. Consumo de una API utilizando funcion fetch, async y await.
+                    Tecnologias utilizadas: <strong>HTML, CSS Y JAVASCRIPT</strong>
+                  </p>
+                  <a class="hover__link" href="https://github.com/alenchufacundo/Dragon-Ball-API"><p>Ver codigo</p></a>
+                  <a class="hover__link" href= "https://alenchufacundo.github.io/Dragon-Ball-API"><p>Ver online</p></a>
                 </div>
-                <!-- Formacion UTN -->
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/utn.png" alt="" class="education__img">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Fundamentos de la programacion
-                    </h2>
-                    <p class="education__paragraph_card">2021 - finalizado</p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-3.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Pomodoro Timer</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">Pomodo Timer es una tecnica que utiliza un temporizador para dividir el trabajo en bloques de tiempo separados por un pequeño descanso, y que luego despues de 4 bloques, haya un descanso mas largo. Se realizo con <strong>HTML, CSS Y JAVASCRIPT</strong></p>
+                  <a class="hover__link" href="https://github.com/alenchufacundo/Pomodoro"><p>Ver codigo</p></a>
+                  <a class="hover__link" href="https://alenchufacundo.github.io/Pomodoro/"><p>Ver online</p></a>
                 </div>
-                <!-- Formacion Codigo Facilito -->
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/codigofacilito2.png" alt="" class="education__img education__img_cf">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Bootcamp React Codigo Facilito
-                    </h2>
-                    <p class="education__paragraph_card">2022 - finalizado</p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-4.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Landing Page</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">Proyecto real de una landing page de una panaderia de Bahia Blanca, Argentina. Tecnologias utilizadas: <strong>HTML, CSS Y JAVASCRIPT</strong></p>
+                  <a class="hover__link" href="https://github.com/alenchufacundo/Panaderia-Praline"><p>Ver codigo</p></a>
+                  <a class="hover__link" href="https://alenchufacundo.github.io/Panaderia-Praline/"><p>Ver online</p></a>
                 </div>
-
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/codigofacilito2.png" alt="" class="education__img">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Bootcamp Front-End Codigo Facilito
-                    </h2>
-                    <p class="education__paragraph_card">2022 - en curso</p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-5.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Timer</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">Timer basico con alarma y modificacion de horas, minutos y segundos. <strong>HTML, CSS Y JAVASCRIPT</strong></p>
+                  <a class="hover__link" href="https://github.com/alenchufacundo/TimerJs"><p>Ver codigo</p></a>
+                  <a class="hover__link" href="https://alenchufacundo.github.io/TimerJs"><p>Ver online</p></a>
                 </div>
-
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/cfp405.png" alt="" class="education__img">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Desarrollo de software - Python & MySQL
-                    </h2>
-                    <p class="education__paragraph_card">2022 - en curso</p>
+              </div>
+            </div>
+            <div class="carrusel-item">
+              <img
+                class="carrusel-image"
+                src="./images/proyecto-6.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Aplicacion de escritorio</h1>
+                <div class="hover__description">
+                  <p class="hover__paragraph">Juego realizado en base al famoso juego "Preguntados" con la libreria tkinter con las funcionalidades de un CRUD. Tecnologias utilizadas: <strong>Python, MySQL</strong></p>
+                  <a class="hover__link" href=""><p>Ver codigo</p></a>
+                  <a class="hover__link" href=""><p>Ver online</p></a>
                 </div>
-                <div class="education__card">
-                    <figure class="education__figure">
-                        <img src="images/todocodeacademy.png" alt="" class="education__img">
-                    </figure>
-                    <h2 class="education__title_card">
-                        Java & Spring Boot - TodoCode Academy
-                    </h2>
-                    <p class="education__paragraph_card">2022 - en curso</p>
-                </div>
-            </article>
-        </section>
+              </div>
+            </div>
+            =
+          </div>
+        </article>
+        <article class="carrusel__control">
+          <figure class="carrusel__figure">
+            <img
+              id="control-left"
+              class="control__left"
+              src="./images/arrowleft.svg"
+              alt=""
+            />
+          </figure>
+          <figure class="carrusel__figure">
+            <img
+              id="control-right"
+              class="control__right"
+              src="./images/arrowright.svg"
+              alt=""
+            />
+          </figure>
+        </article>
+      </section>
 
-        <!-- Projects section -->
-        <section class="project container" id="project">
+      <!-- Contact section -->
 
-            <article class="project__title_container title">
-                <h1 class="project__title">Proyectos</h1>
-            </article>
+      <section class="contact container animated-border" id="contact">
+        <article class="contact__container">
+          <div class="contact__info">
+            <h1>Contactame!</h1>
+          </div>
 
-            <article class="project__container">
+          <div class="contact__card_button">
+            <button class="contact__button">
+              <figure class="contact__card_email">
+                <a
+                  href="mailto: alenfacurios@gmail.com"
+                  class="contact__email--link"
+                >
+                  <img
+                    src="images/email.svg"
+                    alt="logo de un emial"
+                    name="email-logo"
+                    class="contact__email"
+                  />
+                </a>
+              </figure>
+            </button>
+          </div>
 
-                <div class="project__card">
-                    <h2 class="project__title_individual">Encriptador de mensajes</h2>
-                    <figure class="project__picture">
-                        <img src="images/codigofacilito2.png" alt="" class="project__img">
-                    </figure>
-                    <div class="project__button">
-                        <a href=""><button class="project__button-btn">
-                            Ver online
-                        </button></a>
-
-                        <a href=""><button class="project__button-btn">
-                            Ver codigo
-                        </button></a>
-                    </div>
-                </div>
-
-                <div class="project__card">
-                    <h2 class="project__title_individual">Encriptador de mensajes</h2>
-                    <figure class="project__picture">
-                        <img src="images/codigofacilito2.png" alt="" class="project__img">
-                    </figure>
-                    <div class="project__button">
-                        <a href=""><button class="project__button-btn">
-                            Ver online
-                        </button></a>
-
-                        <a href=""><button class="project__button-btn">
-                            Ver codigo
-                        </button></a>
-                    </div>
-                </div>
-
-                <div class="project__card">
-                    <h2 class="project__title_individual">Encriptador de mensajes</h2>
-                    <figure class="project__picture">
-                        <img src="images/codigofacilito2.png" alt="logo de codigo facilito, cocodrilo" name="codigofacilito-logo" class="project__img">
-                    </figure>
-                    <div class="project__button">
-                        <a href=""><button class="project__button-btn">
-                            Ver online
-                        </button></a>
-
-                        <a href=""><button class="project__button-btn">
-                            Ver codigo
-                        </button></a>
-                    </div>
-                </div>
-
-            </article>
-
-        </section>
-
-        <!-- Contact section -->
-
-        <section class="contact container animated-border" id="contact">
-
-            <article class="contact__container">
-                <div class="contact__info">
-                    <h1>
-                    Contactame!
-                    </h1>
-                </div>
-
-                <div class="contact__card_button">
-                    <button class="contact__button">
-                        <figure class="contact__card_email">
-                            <a href="mailto: alenfacurios@gmail.com" class="contact__email--link">
-                                <img src="images/email.svg" alt="logo de un emial" name="email-logo" class="contact__email">
-                            </a>
-                        </figure>
-                    </button>
-                </div>
-
-                <div class="contact__phone">
-                    <!-- FALTA FOTO DE IMAGEN DE CELULAR -->
-                    <a href="https://wa.me/542916493085" class="contact__link" target="_blank">+54 291 6493085</a>
-                </div>
-
-            </article>
-
-        </section>
+          <div class="contact__phone">
+            <!-- FALTA FOTO DE IMAGEN DE CELULAR -->
+            <a
+              href="https://wa.me/542916493085"
+              class="contact__link"
+              target="_blank"
+              >+54 291 6493085</a
+            >
+          </div>
+        </article>
+      </section>
     </main>
 
     <!-- Button for header -->
@@ -309,37 +445,53 @@
 
     <!-- Footer -->
     <footer class="footer container">
+      <article class="footer__name">
+        <p class="footer__paragraph">2022 - Facundo Rios</p>
+        <p class="footer__paragraph">Todos los derechos reservados.</p>
+      </article>
 
-        <article class="footer__name">
-            <p class="footer__paragraph">2022 - Facundo Rios</p>
-            <p class="footer__paragraph">Todos los derechos reservados.</p>
-        </article>
+      <article class="footer__social">
+        <figure class="footer__figure">
+          <a
+            href="https://www.linkedin.com/in/alenchufacundorios/"
+            target="_blank"
+          >
+            <img
+              src="images/linkedin.svg"
+              alt="logo de linkedin"
+              name="logo-linkedin"
+              class="footer__img"
+            />
+          </a>
+        </figure>
 
-        <article class="footer__social">
+        <figure class="footer__figure">
+          <a
+            href="https://www.instagram.com/alenchufacundorios/"
+            target="_blank"
+          >
+            <img
+              src="images/ig.svg"
+              alt="logo de instagram"
+              name="instragram-logo"
+              class="footer__img"
+            />
+          </a>
+        </figure>
 
-            <figure class="footer__picture">
-                <a href="https://www.linkedin.com/in/alenchufacundorios/" target="_blank">
-                    <img src="images/linkedin.svg" alt="logo de linkedin" name="logo-linkedin" class="footer__img">
-                </a>
-                    
-            </figure>
-
-            <figure class="footer__picture">
-                <a href="https://www.instagram.com/alenchufacundorios/" target="_blank">
-                    <img src="images/ig.svg" alt="logo de instagram" name="instragram-logo" class="footer__img">
-                </a>
-            </figure>
-
-            <figure class="footer__picture">
-                <a href="https://github.com/alenchufacundo" target="_blank">
-                    <img src="images/github.svg" alt="logo de github" name="github-logo" class="footer__img">
-                </a>
-            </figure>
-
-        </article>
-
+        <figure class="footer__picture">
+          <a href="https://github.com/alenchufacundo" target="_blank">
+            <img
+              src="images/github.svg"
+              alt="logo de github"
+              name="github-logo"
+              class="footer__img"
+            />
+          </a>
+        </figure>
+      </article>
     </footer>
-    <script src="js/app.js"></script>
-</body>
-
+    <script src="./js/app.js"></script>
+    <script src="./js/slider.js"></script>
+  </body>
 </html>
