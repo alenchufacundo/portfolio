@@ -30,12 +30,12 @@ carrusel.addEventListener("mouseout", () => {
 });
 
 controlRight.addEventListener("click", () => {
-  carrusel.scrollLeft += 300;
+  carrusel.scrollLeft += 200;
   console.log("clickeaste");
 });
 
 controlLeft.addEventListener("click", () => {
-  carrusel.scrollLeft -= 300;
+  carrusel.scrollLeft -= 200;
   console.log("clickeaste");
 });
 
