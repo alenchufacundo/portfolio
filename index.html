@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <script
       src="https://kit.fontawesome.com/37ee1699ac.js"
       crossorigin="anonymous"
@@ -82,9 +84,11 @@
         <h1 class="hero__title">Hola, soy <strong>Facundo Rios!</strong></h1>
         <span class="hero__subtitle">Desarrollador Full-Stack</span>
         <p class="hero__description_paragraph paragraph">
-          Hola!, soy programador web, de aplicaciones de escritorio y de aplicaciones android. Me apasiona crear proyectos que
-          sean funcionales dandole un toque personal mio. Considero
-          considero que la programacion es un arte, ya que uno mismo crea y resuelve problemas a traves de su imaginacion.
+          Hola!, soy programador web, de aplicaciones de escritorio y de
+          aplicaciones android. Me apasiona crear proyectos que sean funcionales
+          dandole un toque personal mio. Considero considero que la programacion
+          es un arte, ya que uno mismo crea y resuelve problemas a traves de su
+          imaginacion.
         </p>
         <a
           href="https://drive.google.com/file/d/11CdaNVRxBlAULrvldsDP8fR7gydvLrrx/view?usp=sharing"
@@ -157,7 +161,7 @@
             <p class="logo__description">ANDROID STUDIO</p>
           </figure>
           <figure class="skills__logo">
-            <img class="skills__logo--img" src="images/mysql.svg" alt=""/>
+            <img class="skills__logo--img" src="images/mysql.svg" alt="" />
             <p class="logo__description">MYSQL</p>
           </figure>
           <figure class="skills__logo">
@@ -273,7 +277,74 @@
         </article>
 
         <article class="carrusel__container">
-          <div class="carrusel-items">
+          <div class="carrusel owl-carousel">
+            <figure class="carrusel__figure item-1">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-1.jpg"
+                alt=""
+              />
+              <div class="hover__image">
+                <h1 class="hover__title">Calculadora</h1>
+                <a href="">
+                  <p style="font-size: 30px;">hola hola</ps>
+                </a>
+                <!-- <div class="hover__description">
+                  <p class="hover__paragraph">
+                    Calculadora responsive y funcional realizado con
+                    <strong>HTML, CSS Y JAVASCRIPT</strong>
+                  </p>
+                  <a
+                    class="hover__link"
+                    href="https://github.com/alenchufacundo/Calculadora"
+                    ><p>Ver codigo</p></a
+                  >
+                  <a
+                    class="hover__link"
+                    href="https://alenchufacundo.github.io/Calculadora/"
+                    ><p>Ver online</p></a
+                  >
+                </div> -->
+              </div>
+            </figure>
+            <figure class="carrusel__figure item-2">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-2.jpg"
+                alt=""
+              />
+            </figure>
+            <figure class="carrusel__figure item-3">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-3.jpg"
+                alt=""
+              />
+            </figure>
+            <figure class="carrusel__figure item-4">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-4.jpg"
+                alt=""
+              />
+            </figure>
+            <figure class="carrusel__figure item-5">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-5.jpg"
+                alt=""
+              />
+            </figure>
+            <figure class="carrusel__figure item-6">
+              <img
+                class="carrusel__image"
+                src="./images/proyecto-6.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
+
+          <!-- <div class="carrusel-items">
             <div class="carrusel-item">
               <img
                 class="carrusel-image"
@@ -422,9 +493,9 @@
               </div>
             </div>
             =
-          </div>
+          </div> -->
         </article>
-        <article class="carrusel__control">
+        <!-- <article class="carrusel__control">
           <figure class="carrusel__figure">
             <img
               id="control-left"
@@ -441,7 +512,7 @@
               alt=""
             />
           </figure>
-        </article>
+        </article> -->
       </section>
 
       <!-- Contact section -->
@@ -539,6 +610,8 @@
         </figure>
       </article>
     </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/particles.min.js"></script>
     <script src="./js/particles.js"></script>
     <script src="./js/app.js"></script>

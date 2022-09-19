@@ -14,9 +14,12 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 16px;
+}
+
 body {
   font-family: var(--font1);
-  font-size: 16px;
 }
 
 .container {
@@ -445,69 +448,48 @@ body {
     gap: 2rem;
 }
 
-.carrusel__container {
-  display: flex;
-  align-items: center;
+
+/*Carrusel jQuery*/
+.carrusel__container{
   width: 100%;
-  margin: 0 auto;
-  height: 50vh;
 }
 
-.carrusel-items {
-  display: flex;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding: 30px 0px;
-  width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  background-color:var(--color-background-dark)
-}
-
-.carrusel-item {
-  min-width: 280px;
-  margin: 0 15px;
-  height: 100%;
-  outline: 2px solid var(--color-background-dark);
-  cursor: pointer;
-}
-
-.carrusel-image {
+.carrusel{
   width: 100%;
   height: 100%;
-  /* object-fit: center; */
-  border-radius: 30px;
-}
-
-
-.carrusel-item:hover {
-  transform: scale(1);
-  transition: transform .5s;
-}
-
-.carrusel__control{
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: space-between;
+  padding: 0 30px;
 }
 
 .carrusel__figure{
-  height:30px;
-  width:50px;
+  background-color: red;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: .5s ease-in-out;
 }
 
-.control__right, .control__left{
-  width:100%;
-  height:100%;
-  cursor:pointer;
-  filter:brightness(.7);
+.carrusel__image{
+  width: 100%;
+  height: 100%;
 }
 
-.control__right:hover, .control__left:hover{
-  transform:scale(1.5);
-  transition: transform .5s;
-  filter:brightness(1);
+.owl-nav{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  opacity: 1;
+  color: #fff;
+  font-size: 30px;
+  top: 180px;
+  right: 0;
 }
 
 .hover__image{
@@ -547,7 +529,6 @@ body {
 
 .hover__link{
   text-decoration: none;
-  font-weight: 700;
   border: 2px solid none;
   color: var(--color-background-dark);
   background-color: var(--color-secondary);
@@ -557,55 +538,15 @@ body {
 }
 
 .hover__link:hover{
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary);
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.5s; */
 }
 
-.carrusel-item:hover .hover__image{
+.carrusel__figure:hover .hover__image{
   width: 100%;
 }
 
-
-/* .project__card{
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.project__title_individual{
-    color: var(--color-secondary);
-}
-
-.project__picture{
-    width: 250px;
-    height: 250px;
-    border: 1px solid var(--color-primary);
-}
-
-.project__img{
-    width: 100%;
-    height: 100%;
-}
-
-.project__button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.project__button-btn{
-    font-family: inherit;
-    width: 100px;
-    height: 30px;
-    border-radius: .5rem;
-    background-color: var(--color-quaternary);
-    color: var(--color-background-dark);
-} */
 
 /* Contact */
 
