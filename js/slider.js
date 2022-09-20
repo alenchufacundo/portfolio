@@ -54,10 +54,11 @@ $('.owl-carousel').owlCarousel({
   margin: 10,
   autoplay:true,
   loop:true,
-  autoplayTimeout: 2000,
+  autoplayTimeout: 2500,
   autoplayHoverPause: true,
   margin:10,
   nav:true,
+  dots: false,
   responsive:{
       0:{
           items:1,
