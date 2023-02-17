@@ -228,7 +228,7 @@ body {
     width: 0;
   }
 }
-
+ero__button
 @keyframes blink {
   50% {
     border-color: transparent;
@@ -899,6 +899,10 @@ body {
     font-weight: 800;
   }
 
+  .nav__list_a:hover{
+    color: var(--color-secondary);
+    transition: .5s;
+  }
   /* Hero */
 
   .hero.container {
