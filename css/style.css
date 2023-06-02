@@ -257,7 +257,7 @@ ero__button
   padding: 0.5rem 1rem;
   border-radius: 0.75rem;
   text-decoration: none;
-  z-index: 3;
+  z-index: 1;
 }
 
 .hero__button_cv:hover {
