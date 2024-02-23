@@ -42,8 +42,8 @@
               >
             </li>
             <li>
-              <a href="#education" class="nav__list--education nav__list_a"
-                >Formacion</a
+              <a href="#experiencia" class="nav__list--education nav__list_a"
+                >Experiencia</a
               >
             </li>
             <li>
@@ -74,7 +74,7 @@
         <figure class="hero__figure">
           <img
             class="hero__img_profile profile"
-            src="images/perfil.png"
+            src="images/perfilPhoto.PNG"
             alt=""
           />
         </figure>
@@ -84,10 +84,10 @@
         <h1 class="hero__title">Hola, soy <strong>Facundo Rios!</strong></h1>
         <span class="hero__subtitle">Desarrollador Full-Stack</span>
         <p class="hero__description_paragraph paragraph">
-          Hola!, soy programador web y de aplicaciones de escritorio. Me
-          apasiona crear proyectos que sean funcionales dandole un toque
-          personal mio. Considero considero que la programacion es un arte, ya
-          que uno mismo crea y resuelve problemas a traves de su imaginacion.
+          Hola!, soy programador web y de aplicaciones mobile. Me apasiona crear
+          proyectos que sean funcionales con los estándares mas actuales de la
+          tecnologia. Considero que la programacion es un arte, ya que uno mismo
+          crea y resuelve problemas a traves de su imaginacion.
         </p>
         <a
           href="https://drive.google.com/file/d/1XkUWyyftEu208CSkrWUBFP36oJpR0l0H/view?usp=sharing"
@@ -95,40 +95,35 @@
           class="hero__button_cv"
           >DESCARGAR CV</a
         >
-        <figure class="hero__social">
-          <div class="hero__div">
-            <a href="https://github.com/alenchufacundo" target="_blank">
+        <div class="hero__social-container">
+          <figure class="hero__social-figure">
+            <a href="" class="hero__social-figure">
               <img
-                src="images/github.svg"
-                alt="logo de github"
-                name="github-logo"
-                class="hero__img-social"
+                class="hero__social-img"
+                src="./images/linkedin.png"
+                alt="logo de linkedin"
               />
             </a>
-            <a
-              href="https://github.com/alenchufacundo"
-              class="hero__social-name"
-              target="_blank"
-              >Github</a
-            >
-          </div>
-          <div class="hero__div">
-            <a href="https://github.com/alenchufacundo" target="_blank">
+          </figure>
+          <figure class="hero__social-figure">
+            <a href="" class="hero__social-figure">
               <img
-                src="images/linkedin.svg"
+                class="hero__social-img"
+                src="./images/skills/github.png"
                 alt="logo de github"
-                name="linkedin-logo"
-                class="hero__img-social"
               />
             </a>
-            <a
-              href="https://www.linkedin.com/in/alenchufacundorios/"
-              class="hero__social-name"
-              target="_blank"
-              >Linkedin</a
-            >
-          </div>
-        </figure>
+          </figure>
+          <figure class="hero__social-figure ig-figure">
+            <a href="" class="hero__social-figure" in>
+              <img
+                class="hero__social-img"
+                src="./images/ig.png"
+                alt="logo de instagram"
+              />
+            </a>
+          </figure>
+        </div>
       </article>
       <div id="particles-js"></div>
     </section>
@@ -146,10 +141,10 @@
             <h2 class="about__subtitle">Facundo Rios</h2>
             <p class="about__description paragraph">
               Soy licenciado en Nutricion desde el 2021, pero actualmente me
-              encuentro estudiando la Tecnicatura Universitaria (TUP) en
-              Programacion en la UTN. Me considero una persona autodidacta con
-              ganas de aprender y seguir formandome constantemente, y poder
-              encontrar mi primer trabajo IT para lograr dicho objetivo.
+              encuentro en el ultimo año de la carrrera: Tecnicatura
+              Universitaria en Programacion (TUP) en la UTN. Desde septiembre
+              del 2023, me encuentro trabajando como Desarrollador Full-Stack
+              para la empresa Cooperativa Obrera de Bahia Blanca.
             </p>
             <p class="about__description--colorful paragraph">
               Siempre dispuesto al trabajo en equipo y en aprendizaje continuo.
@@ -174,33 +169,37 @@
         <!-- Skills -->
         <article class="skills__logo_container">
           <figure class="skills__logo">
-            <img class="skills__logo--img" src="images/skills/css.svg" alt="" />
+            <img class="skills__logo--img" src="images/skills/css.png" alt="" />
             <p class="logo__description">CSS</p>
           </figure>
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/html5.svg"
+              src="images/skills/html.png"
               alt=""
             />
             <p class="logo__description">HTML</p>
           </figure>
           <figure class="skills__logo">
-            <img class="skills__logo--img" src="images/skills/js.svg" alt="" />
+            <img
+              class="skills__logo--img"
+              src="images/skills/javascript.png"
+              alt=""
+            />
             <p class="logo__description">JAVASCRIPT</p>
           </figure>
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/mysql.svg"
+              src="images/skills/mariadb.png"
               alt=""
             />
-            <p class="logo__description">MYSQL</p>
+            <p class="logo__description">MARIADB</p>
           </figure>
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/python.svg"
+              src="images/skills/python.png"
               alt=""
             />
             <p class="logo__description">PYTHON</p>
@@ -208,7 +207,7 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/cmasmas.svg"
+              src="images/skills/cmasmas.png"
               alt=""
             />
             <p class="logo__description">C++</p>
@@ -216,7 +215,7 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/react.svg"
+              src="images/skills/react.png"
               alt=""
             />
             <p class="logo__description">REACT</p>
@@ -224,7 +223,15 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/bootstrap.svg"
+              src="images/skills/nextjs.png"
+              alt=""
+            />
+            <p class="logo__description">NEXT JS</p>
+          </figure>
+          <figure class="skills__logo">
+            <img
+              class="skills__logo--img"
+              src="images/skills/bootstrap.png"
               alt=""
             />
             <p class="logo__description">BOOTSTRAP</p>
@@ -232,7 +239,7 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/csharp.svg"
+              src="images/skills/csharp.png"
               alt=""
             />
             <p class="logo__description">C#</p>
@@ -240,7 +247,7 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/github.svg"
+              src="images/skills/github.png"
               alt=""
             />
             <p class="logo__description">GITHUB</p>
@@ -248,77 +255,55 @@
           <figure class="skills__logo">
             <img
               class="skills__logo--img"
-              src="images/skills/django.svg"
+              src="images/skills/gitlab.png"
               alt=""
             />
-            <p class="logo__description">DJANGO</p>
+            <p class="logo__description">GITLAB</p>
+          </figure>
+          <figure class="skills__logo">
+            <img
+              class="skills__logo--img"
+              src="images/skills/flask.png"
+              alt=""
+            />
+            <p class="logo__description">FLASK</p>
+          </figure>
+          <figure class="skills__logo">
+            <img
+              class="skills__logo--img"
+              src="images/skills/materialui.png"
+              alt=""
+            />
+            <p class="logo__description">MATERIAL-UI</p>
+          </figure>
+          <figure class="skills__logo">
+            <img class="skills__logo--img" src="images/skills/php.png" alt="" />
+            <p class="logo__description">PHP</p>
+          </figure>
+          <figure class="skills__logo">
+            <img
+              class="skills__logo--img"
+              src="images/skills/codeigniter2.png"
+              alt=""
+            />
+            <p class="logo__description">CODEIGNITER</p>
           </figure>
         </article>
       </section>
 
       <!-- Education -->
-      <section class="education container" id="education">
-        <article class="education__title_container title">
-          <h1 class="education__title">Formacion academica</h1>
+      <section class="experiencia container" id="experiencia">
+        <article class="experiencia__title_container title">
+          <h1 class="Experiencia">Experiencia</h1>
         </article>
         <!-- Formacion Oracle Next Education -->
-        <article class="education__container">
-          <div class="education__card">
-            <figure class="education__figure">
-              <img
-                src="images/utnBahiaBlanca.png"
-                alt=""
-                class="education__img"
-              />
-            </figure>
-            <h2 class="education__title_card">
-              UTN - Tecnicatura universitaria en programacion
-            </h2>
-            <p class="education__paragraph_card">2023 - en curso</p>
-          </div>
-          <div class="education__card">
-            <figure class="education__figure">
-              <img
-                src="images/onenexteducation2.png"
-                alt=""
-                class="education__img"
-              />
-            </figure>
-            <h2 class="education__title_card">
-              Fullstack developer (HTML, CSS, JS)
-            </h2>
-            <p class="education__paragraph_card">2022 - finalizado</p>
-          </div>
-          <div class="education__card">
-            <figure class="education__figure">
-              <img
-                src="images/codigofacilito2.png"
-                alt=""
-                class="education__img"
-              />
-            </figure>
-            <h2 class="education__title_card">
-              Bootcamp Front-End Codigo Facilito
-            </h2>
-            <p class="education__paragraph_card">2022 - finalizado</p>
-          </div>
-
-          <div class="education__card">
-            <figure class="education__figure">
-              <img src="images/cfp405.png" alt="" class="education__img" />
-            </figure>
-            <h2 class="education__title_card">
-              Desarrollo de software - Python , MySQL & SQLite
-            </h2>
-            <p class="education__paragraph_card">2022 - finalizado</p>
-          </div>
-        </article>
+        <article class="experiencia__container"></article>
       </section>
 
       <!-- Projects section -->
       <section class="project container" id="project">
         <article class="project__title_container title">
-          <h1 class="project__title">Proyectos</h1>
+          <h1 class="project__title">Proyectos/Trabajos</h1>
         </article>
 
         <article class="project__container">
@@ -368,11 +353,8 @@
               <div class="details__links">
                 <a
                   class="details__link"
-                  href="https://github.com/alenchufacundo/postres-app"
+                  href="https://64dd2f3487c9a708f63f2ba7--fascinating-clafoutis-597aa0.netlify.app/"
                 >
-                  Ver codigo
-                </a>
-                <a class="details__link" href="https://64dd2f3487c9a708f63f2ba7--fascinating-clafoutis-597aa0.netlify.app/">
                   Ver demo
                 </a>
               </div>
@@ -425,12 +407,6 @@
               <div class="details__links">
                 <a
                   class="details__link"
-                  href="https://github.com/alenchufacundo/gif-expert-app"
-                >
-                  Ver codigo
-                </a>
-                <a
-                  class="details__link"
                   href="https://shiny-mochi-4e88ca.netlify.app/
                   "
                 >
@@ -443,26 +419,32 @@
           <div class="project__card">
             <figure class="project__figure">
               <img
-                src="images/projects/proyecto-6.jpg"
+                src="images/projects/proyecto-3.png"
                 alt=""
                 class="project__image"
               />
             </figure>
 
             <div class="details__container">
-              <h1 class="details__title">Juego replica de Preguntados</h1>
+              <h1 class="details__title">Bahifer</h1>
               <p class="details__paragraph">
-                Aplicacion de escritorio mediante el uso de la libreria Tkinter.
+                Landing page de una ferreteria, donde se muestra informacion
+                basica y de los productos con los que trabaja.
               </p>
               <figure class="details__figure">
                 <img
                   class="details__icon"
-                  src="./images/icons/python.png"
+                  src="./images/icons/react.png"
                   alt=""
                 />
                 <img
                   class="details__icon"
-                  src="./images/icons/mysql.png"
+                  src="./images/icons/nextjs.png"
+                  alt=""
+                />
+                <img
+                  class="details__icon"
+                  src="./images/icons/materialui.png"
                   alt=""
                 />
               </figure>
@@ -471,126 +453,11 @@
                   class="details__link"
                   href="https://github.com/alenchufacundo/preguntadosGame"
                 >
-                  Ver codigo
+                  Ver demo
                 </a>
               </div>
             </div>
           </div>
-          <div class="project__card">
-            <figure class="project__figure">
-              <img
-                src="images/projects/proyecto-5.jpg"
-                alt=""
-                class="project__image"
-              />
-            </figure>
-
-            <div class="details__container">
-              <h1 class="details__title">ABM clientes</h1>
-              <p class="details__paragraph">
-                Alta, baja y modificación de un registro de clientes.
-              </p>
-              <figure class="details__figure">
-                <img
-                  class="details__icon"
-                  src="./images/icons/html.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/css.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/javascript.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/bootstrap.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/php.png"
-                  alt=""
-                />
-              </figure>
-              <div class="details__links">
-                <a
-                  class="details__link"
-                  href="https://github.com/alenchufacundo/abmclientes"
-                >
-                  Ver codigo
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project__card">
-            <figure class="project__figure">
-              <img
-                src="images/projects/proyecto-3.jpg"
-                alt=""
-                class="project__image"
-              />
-            </figure>
-
-            <div class="details__container">
-              <h1 class="details__title">Sistema de Login y Gestion</h1>
-              <p class="details__paragraph">
-                Sistema de gestión de clientes, productos y ventas utilizando
-                patron de diseño MVC.
-              </p>
-              <figure class="details__figure">
-                <img
-                  class="details__icon"
-                  src="./images/icons/html.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/css.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/javascript.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/bootstrap.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/php.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/mysql.png"
-                  alt=""
-                />
-                <img
-                  class="details__icon"
-                  src="./images/icons/jquery.png"
-                  alt=""
-                />
-              </figure>
-              <div class="details__links">
-                <a
-                  class="details__link"
-                  href="https://github.com/alenchufacundo/sistemaventas"
-                >
-                  Ver codigo
-                </a>
-              </div>
-            </div>
-          </div>
-
-
         </article>
       </section>
 
@@ -603,19 +470,17 @@
 
           <div class="contact__card_button">
             <button class="contact__button">
-              <figure class="contact__card_email">
-                <a
-                  href="mailto: alenfacurios@gmail.com"
-                  class="contact__email--link"
-                >
-                  <img
-                    src="images/email.svg"
-                    alt="logo de un emial"
-                    name="email-logo"
-                    class="contact__email"
-                  />
-                </a>
-              </figure>
+              <a
+                href="mailto: alenfacurios@gmail.com"
+                class="contact__email--link"
+              >
+                <img
+                  src="images/sobre.png"
+                  alt="logo de un emial"
+                  name="email-logo"
+                  class="contact__email"
+                />
+              </a>
             </button>
           </div>
 
@@ -638,8 +503,7 @@
     <!-- Footer -->
     <footer class="footer container">
       <article class="footer__name">
-        <p class="footer__paragraph">2022 - Facundo Rios</p>
-        <p class="footer__paragraph">Todos los derechos reservados.</p>
+        <p class="footer__paragraph">Facundo Rios</p>
       </article>
 
       <article class="footer__social">
@@ -683,7 +547,9 @@
         </figure>
       </article>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/particles.min.js"></script>
+    <!-- <script src="./js/scrollSide.js"></script> -->
     <script src="./js/particles.js"></script>
     <script src="./js/app.js"></script>
   </body>
